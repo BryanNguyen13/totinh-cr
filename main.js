@@ -9,7 +9,6 @@ no.addEventListener('mouseover', ()=> {
     const y =  Math.floor(Math.random() * (window.innerHeight-150));
     no.style.left = `${x}px`;
     no.style.top = `${y}px`;
-
 });
 no.addEventListener('mouseover', function(){
     no.style.transform = 'scale(0.5)';
